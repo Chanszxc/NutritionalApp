@@ -2,6 +2,7 @@
 ![1](https://user-images.githubusercontent.com/109723640/180247441-0a24c42d-a9c0-41d8-9a64-552f5689b554.jpg)
 <font size="6"> This nutritional app is for individuals who wish to check their body weight and keep tabs on their regular food consumption. This may also be useful for those who frequently forget about their own needs and want to continue to advance their level of health.</font>
 # Overview
+* In our nutritional app, it can help you achieve the body you want. There are foods here that can help with weight loss and weight gain because each calorie is listed and there is also a description. You can document or note the food you eat during the day so you can keep track of it.
 # Requirements
 * Android Studio Chipmunk version or above (installed on a Mac, Linux, or Windows machine)
 * Android device in developer mode (see here for reference) with USB debugging enabled
