@@ -22,7 +22,10 @@
 ![acheivements](https://user-images.githubusercontent.com/109723640/180273783-9c859c73-5bc0-409b-9d4c-9f34770d2e8a.jpg)
 # Demo
 # Developer
-
+* Kimberly Apostol
+* John Rick Bumagat
+* Ricalyn Malacad
+* Christian John Yubal
 # Course
 * Bachelors of Science in Information Technlogy
 # Subject
