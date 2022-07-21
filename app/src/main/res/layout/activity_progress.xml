@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFCEB"
+    tools:context=".Progress">
+
+    <TextView
+        android:id="@+id/txtprev3"
+        android:layout_width="368dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="67dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="What's your current Kg?"
+        android:textColor="#DC1E0B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnachievements"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progRegWeight" />
+
+    <TextView
+        android:id="@+id/txtprev2"
+        android:layout_width="368dp"
+        android:layout_height="44dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Starting Weight"
+        android:textColor="#DC1E0B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRecord"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <TextView
+        android:id="@+id/txtRecord"
+        android:layout_width="215dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Progress"
+        android:textColor="#DC1E0B"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/latestWeight"
+        android:layout_width="211dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="284dp"
+        android:background="#DFE9AC"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#7E7C7C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtprev3"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <Button
+        android:id="@+id/btnachievements"
+        android:layout_width="234dp"
+        android:layout_height="38dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="serif"
+        android:text="See report Achievements"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latestWeight"
+        app:layout_constraintVertical_bias="0.246"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.MediumComponent" />
+
+    <TextView
+        android:id="@+id/progRegWeight"
+        android:layout_width="202dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="110dp"
+        android:background="#DFE9AC"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#7E7C7C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtprev2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

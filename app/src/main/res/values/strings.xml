@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Nutritional</string>
+    <string name="input_error_password">Please enter a password</string>
+</resources>

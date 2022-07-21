@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFCEB"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/delAcc"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="serif"
+        android:text="Delete Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="serif"
+        android:onClick="logout"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <ImageView
+        android:id="@+id/progress"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:background="#FFA820"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273"
+        app:srcCompat="@drawable/progress" />
+
+    <TextView
+        android:id="@+id/txtfoodcalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Food Calories"
+        android:textColor="#DC1E0B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/record"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <ImageView
+        android:id="@+id/record"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:background="#FFA820"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRecipe"
+        app:layout_constraintVertical_bias="0.079"
+        app:srcCompat="@drawable/record" />
+
+    <TextView
+        android:id="@+id/txtachievement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Achievements"
+        android:textColor="#DC1E0B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/achievement"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <TextView
+        android:id="@+id/txtRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Recipe"
+        android:textColor="#DC1E0B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipe"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/txtProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Progress"
+        android:textColor="#DC1E0B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageView
+        android:id="@+id/recipe"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:background="#FFA820"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273"
+        app:srcCompat="@drawable/recipe" />
+
+    <ImageView
+        android:id="@+id/achievement"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:background="#FFA820"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProgress"
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@drawable/achievement" />
+
+    <TextView
+        android:id="@+id/signupWeight"
+        android:layout_width="342dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="#DFE9AC"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#DC1E0B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userInfo" />
+
+    <TextView
+        android:id="@+id/userInfo"
+        android:layout_width="233dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="#DFE9AC"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#DC1E0B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

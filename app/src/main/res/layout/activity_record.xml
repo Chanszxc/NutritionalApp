@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFCEB"
+    tools:context=".Record">
+
+    <TextView
+        android:id="@+id/txtRecord"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Food Calories"
+        android:textColor="#DC1E0B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edFoodName"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="#DFE9AC"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:hint="Food Name"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textColorHint="#737373"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRecord"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/edtCalories"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#DFE9AC"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:hint="Calories"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textColorHint="#737373"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edFoodName"
+        app:layout_constraintVertical_bias="0.016"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="serif"
+        android:text="Save"
+        app:layout_constraintBottom_toTopOf="@+id/delBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCalories" />
+
+    <Button
+        android:id="@+id/comCal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="serif"
+        android:text="Compute Calories"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totCal"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <Button
+        android:id="@+id/delBtn"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="serif"
+        android:text="Delete Daily Record"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="375dp"
+        android:layout_height="387dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:background="#E8E8C0"
+        android:cacheColorHint="#BC4F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delBtn" />
+
+    <TextView
+        android:id="@+id/totCal"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        android:background="#DFE9AC"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#737373"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1069910284041",
+    "firebase_url": "https://dbnutritional-4dae0-default-rtdb.firebaseio.com",
+    "project_id": "dbnutritional-4dae0",
+    "storage_bucket": "dbnutritional-4dae0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069910284041:android:b934e6d67f8ebad2f465d8",
+        "android_client_info": {
+          "package_name": "com.example.nutritional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069910284041-vnqdpq0qopi8mgv8b2bpl6v3kqskk4lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnU-ZsfLyKTjVQ_SUrKThWgyZO1VhtsbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069910284041-vnqdpq0qopi8mgv8b2bpl6v3kqskk4lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

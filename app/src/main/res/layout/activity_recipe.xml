@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    android:background="#FBFCEB">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBFCEB">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/recipeTxt"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:fontFamily="serif"
+                android:text="Ideal Recipes"
+                android:textAlignment="center"
+                android:textColor="#DC1E0B"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imgSpinach"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/spinach"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/spinach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Spinach"
+                android:textAlignment="center"
+                android:textColor="#DC1E0B"
+                android:textColorHighlight="#DFE9AC"
+                android:textColorLink="#DFE9AC"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imgCelery"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/celery"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/celery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Celery"
+                android:textAlignment="center"
+                android:textColor="#DC1E0B"
+                android:textColorHighlight="#DFE9AC"
+                android:textColorLink="#DFE9AC"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imgOatmeal"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/oatmeal"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/oatmeal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Oatmeal"
+                android:textAlignment="center"
+                android:textColor="#DC1E0B"
+                android:textColorHighlight="#DFE9AC"
+                android:textColorLink="#DFE9AC"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imgRasp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/raspberries"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/raspberry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Raspberry"
+                android:textAlignment="center"
+                android:textColor="#DC1E0B"
+                android:textColorHighlight="#DFE9AC"
+                android:textColorLink="#DFE9AC"
+                android:textSize="34sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
