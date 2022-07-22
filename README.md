@@ -38,3 +38,5 @@ Click [here](https://youtu.be/USKptdmM10s) to watch the Application Demo
 * Eulogio "Amang" Rodriguez Institute of Science and Technology(ITE Department)
 # Adviser
 * Jefferson A. Costales
+# Date
+July 21 2022
